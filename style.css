@@ -1,0 +1,7 @@
+fieldset {
+    width: 50%;
+}
+p {
+    -webkit-margin-before: 0.5em;
+    -webkit-margin-after: 0.5em;
+}

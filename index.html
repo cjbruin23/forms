@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <form>
+        <fieldset>
+            <legend>Your Info</legend>
+            <p>
+                <label for="name">
+                    Name:
+                    <input type="text" id="name" name="user_name">
+                </label>
+            </p>
+            <p>
+                <label for="email">
+                    E-Mail:
+                    <input type="text" id="email" name="email">
+                </label>
+            </p>
+            <p>
+                <label for="cellphone">
+                    Cell Phone:
+                    <input type="text" id="cellphone" name="cellphone">
+                </label>
+            </p>
+            <p>
+                <label for="homepage">
+                    Homepage:
+                    <input type="text" id="homepage" name="homepage">
+                </label>
+            </p>
+
+        </fieldset>
+        <fieldset>
+            <legend>What is your preffered method of communication?</legend>
+            <p>
+                <input type="radio" name="comm" id="pref-email" value="email">
+                <label for="email">Email</label>
+            </p>
+            <p>
+                <input type="radio" name="comm" id="pref-phone" value="phone">
+                <label for="phone">Phone</label>
+            </p>
+            <p>
+                <input type="radio" name="comm" id="pref-bottle" value="bottle">
+                <label for="bottle">Message in a Bottle</label>
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Which Devices Do You Use?</legend>
+            <p>
+                <input type="checkbox" id="ios" name="device" value="ios">
+                <label for="ios">iOS (iPhone/iPad)</label>
+            </p>
+            <p>
+                <input type="checkbox" id="android" name="device" value="android">
+                <label for="android">Android</label>
+            </p>
+            <p>
+                <input type="checkbox" id="mac" name="device" value="mac">
+                <label for="mac">Mac</label>
+            </p>
+            <p>
+                <input type="checkbox" id="windows" name="device" value="windows">
+                <label for="windows">iOS (iPhone/iPad)</label>
+            </p>
+            <p>
+                <input type="checkbox" id="chrome" name="device" value="chrome">
+                <label for="chrome">Chrome OS</label>
+            </p>
+            <p>
+                <input type="checkbox" id="linux" name="device" value="linux">
+                <label for="linux">Linux</label>
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Your Inquiry</legend>
+            <select>
+                <option value="feedback">Providing Feedback</option>
+                <option value="complaint">Complaint</option>
+                <option value="compliment">Compliment</option>
+                <option value="recomendation">Recomendation</option>
+            </select>
+            <p>
+                <label for="plan">
+                    E-Mail:<input type="text" id="plan" name="plan">
+                </label>
+            </p>
+            <label for="messagebox">Message:
+                <textarea rows="4" cols="35"></textarea>
+            </label>
+
+        </fieldset>
+    </form>
+</body>
+
+</html>
